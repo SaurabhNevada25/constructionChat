@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/startRoute': {
-        target: 'http://localhost:3000', // Backend API URL
+        target: 'http://65.0.139.145:3000', // Backend API URL
         changeOrigin: true,
         secure: false,
       },
