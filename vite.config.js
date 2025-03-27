@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/startRoute': {
-        target: 'https://construction-ai-node-backend.vercel.app:3000', // Backend API URL
+        target: 'http://localhost:3000', // Backend API URL
         changeOrigin: true,
         secure: false,
       },
