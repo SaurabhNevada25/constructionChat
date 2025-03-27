@@ -31,7 +31,7 @@ export default function ConstructionChatbot() {
 
     try {
       // Send message to API
-      const response = await fetch("/startRoute", {
+      const response = await fetch("https://construction-ai-node-backend.vercel.app:3000/startRoute", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
